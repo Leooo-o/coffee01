@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Georgia, Geneva, Verdana, sans-serif;
+}
+
+.box{
+    position: relative;
+    background-color: #ffdd04; 
+    width: 650px;
+    height: 1000px;
+}
+.table_test{
+    margin: 0 auto;
+}
+.table_test .top td{
+    border-bottom: 4px solid #6de8da;
+}
+.table_test td {
+    font-size: 20px;
+    font-weight: 400;
+    color: #e92769;
+    padding: 10px 15px;
+    /* font-family: Georgia, serif; */
+}
+
+.table_test td:nth-child(n+3){
+    text-align: center;
+}
+.table_test .milks td{
+    border-bottom: 4px solid #6de8da;
+    padding-top: 20px;
+}
+
+.upgrade{
+    position: absolute;
+    bottom: 0;
+    left: 45px;
+    width: 550px;
+    height: 120px;
+    background-color: #e92769;
+}
+.upgrade table{
+    margin: 25px auto;
+}
+.upgrade .up{
+    margin-top: 10px;
+    color: #ffdd04;
+}
+
+.upgrade td{
+    padding: 0 30px;
+    color: #fff;
+}
